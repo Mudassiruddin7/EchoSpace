@@ -1,0 +1,215 @@
+# =====================================================================
+# EchoSpace  - Git Attributes Configuration
+# =====================================================================
+
+# Auto-detect text files and normalize line endings to LF
+* text=auto eol=lf
+
+# =====================================================================
+# Source Code Files
+# =====================================================================
+*.js text eol=lf
+*.jsx text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
+*.json text eol=lf
+*.jsonc text eol=lf
+
+# =====================================================================
+# Web Files
+# =====================================================================
+*.html text eol=lf diff=html
+*.css text eol=lf diff=css
+*.scss text eol=lf
+*.sass text eol=lf
+*.less text eol=lf
+
+# =====================================================================
+# Configuration Files
+# =====================================================================
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.ini text eol=lf
+*.cfg text eol=lf
+*.conf text eol=lf
+*.config text eol=lf
+
+# =====================================================================
+# Documentation
+# =====================================================================
+*.md text eol=lf diff=markdown
+*.mdx text eol=lf
+*.txt text eol=lf
+*.rst text eol=lf
+
+# =====================================================================
+# Database & SQL
+# =====================================================================
+*.sql text eol=lf linguist-detectable=true
+
+# =====================================================================
+# Shell Scripts
+# =====================================================================
+*.sh text eol=lf
+*.bash text eol=lf
+*.zsh text eol=lf
+
+# Windows scripts
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# =====================================================================
+# Git Configuration
+# =====================================================================
+.gitattributes text eol=lf
+.gitignore text eol=lf
+.gitmodules text eol=lf
+
+# =====================================================================
+# Package Management
+# =====================================================================
+package.json text eol=lf
+package-lock.json text eol=lf -diff
+yarn.lock text eol=lf -diff
+pnpm-lock.yaml text eol=lf -diff
+
+# =====================================================================
+# CI/CD & Docker
+# =====================================================================
+Dockerfile text eol=lf
+.dockerignore text eol=lf
+docker-compose*.yml text eol=lf
+
+# =====================================================================
+# 3D Models & Assets
+# =====================================================================
+# VRM models (binary)
+*.vrm binary
+
+# glTF/GLB
+*.gltf text eol=lf
+*.glb binary
+
+# Other 3D formats
+*.fbx binary
+*.obj text eol=lf
+*.mtl text eol=lf
+*.blend binary
+*.dae text eol=lf
+*.3ds binary
+*.stl binary
+
+# =====================================================================
+# Images (Binary)
+# =====================================================================
+*.png binary diff=exif
+*.jpg binary diff=exif
+*.jpeg binary diff=exif
+*.gif binary
+*.ico binary
+*.webp binary
+*.svg text eol=lf
+*.bmp binary
+*.tiff binary
+*.psd binary
+
+# =====================================================================
+# Audio (Binary)
+# =====================================================================
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.flac binary
+*.aac binary
+*.m4a binary
+
+# =====================================================================
+# Video (Binary)
+# =====================================================================
+*.mp4 binary
+*.mov binary
+*.avi binary
+*.mkv binary
+*.webm binary
+
+# =====================================================================
+# Fonts (Binary)
+# =====================================================================
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.eot binary
+
+# =====================================================================
+# Archives (Binary)
+# =====================================================================
+*.zip binary
+*.tar binary
+*.gz binary
+*.bz2 binary
+*.7z binary
+*.rar binary
+*.tgz binary
+
+# =====================================================================
+# Executables (Binary)
+# =====================================================================
+*.exe binary
+*.dll binary
+*.so binary
+*.dylib binary
+
+# =====================================================================
+# Data Files
+# =====================================================================
+*.csv text eol=lf
+*.tsv text eol=lf
+*.xml text eol=lf
+
+# =====================================================================
+# Merge Strategies
+# =====================================================================
+package-lock.json merge=ours
+yarn.lock merge=ours
+pnpm-lock.yaml merge=ours
+
+# =====================================================================
+# Export Ignore (not in git archive)
+# =====================================================================
+.gitattributes export-ignore
+.gitignore export-ignore
+.github/ export-ignore
+.vscode/ export-ignore
+*.test.* export-ignore
+*.spec.* export-ignore
+__tests__/ export-ignore
+scripts/ export-ignore
+
+# =====================================================================
+# Linguist Overrides
+# =====================================================================
+*.min.js linguist-generated=true
+*.min.css linguist-generated=true
+public/animations/** linguist-vendored
+public/avatars/** linguist-vendored
+node_modules/ linguist-vendored
+
+# =====================================================================
+# Security (no diffs for sensitive files)
+# =====================================================================
+.env* -diff
+*.env -diff
+*.pem -diff
+*.key -diff
+*.cert -diff
+
+# =====================================================================
+# Binary Directories
+# =====================================================================
+public/avatars/** binary
+public/animations/** binary

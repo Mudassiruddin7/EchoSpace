@@ -1,0 +1,99 @@
+[
+  {
+    "name": "https",
+    "chain": "base",
+    "contractAddress": "0xc1374b803dfb1a9c87eab9e76929222dba3a8c39",
+    "tokenId": "88700490005035943529316798097329512194005047219864766536287890625371326907368",
+    "metadata": {
+      "contract": {
+        "address": "0xc1374b803DFb1A9c87eaB9e76929222DBa3a8C39",
+        "name": "Nifty Island Creations",
+        "symbol": "NI-CREATE",
+        "tokenType": "ERC1155",
+        "contractDeployer": "0x586FBF5fADB63bA1e28f4987D7e6D6F1BFB9F490",
+        "deployedBlockNumber": 6380501,
+        "openSeaMetadata": {},
+        "spamClassifications": []
+      },
+      "tokenId": "88700490005035943529316798097329512194005047219864766536287890625371326907368",
+      "tokenType": "ERC1155",
+      "name": "Wooden Stick",
+      "description": "A very sticky wood.\n\nThis sword was created by @zoan on April 3, 2024 using the Nifty Island creator tool.",
+      "tokenUri": "https://metadata.niftyisland.com/metadata/evm/8453/0xc1374b803dfb1a9c87eab9e76929222dba3a8c39/c41ab2bef4e8a17d8e2089ee7a6aa25e4c6406208001a704afec4fe2bc0003e8/metadata.json",
+      "image": {
+        "cachedUrl": "https://nft-cdn.alchemy.com/base-mainnet/e3395491717ab516b158a935a54fcfd8",
+        "thumbnailUrl": "https://res.cloudinary.com/alchemyapi/image/upload/thumbnailv2/base-mainnet/e3395491717ab516b158a935a54fcfd8",
+        "pngUrl": "https://res.cloudinary.com/alchemyapi/image/upload/convert-png/base-mainnet/e3395491717ab516b158a935a54fcfd8",
+        "contentType": "video/mp4",
+        "size": 69149,
+        "originalUrl": "https://content.niftyisland.com/nftables/37979115-10ae-4996-8c96-91f0d6010c18/v/1/preview.mp4"
+      },
+      "raw": {
+        "tokenUri": "https://metadata.niftyisland.com/metadata/evm/8453/0xc1374b803dfb1a9c87eab9e76929222dba3a8c39/{id}/metadata.json",
+        "metadata": {
+          "image": "https://content.niftyisland.com/nftables/37979115-10ae-4996-8c96-91f0d6010c18/v/1/preview.mp4",
+          "extensions": [
+            "ETM_MULTIASSET_v1.0.0"
+          ],
+          "assets": [
+            {
+              "name": "Wooden Stick",
+              "media_type": "model",
+              "files": [
+                {
+                  "url": "https://content.niftyisland.com/nftables/37979115-10ae-4996-8c96-91f0d6010c18/v/1/source.fbx",
+                  "file_type": "model/fbx"
+                }
+              ]
+            }
+          ],
+          "metadata_standard": "ETM_v1.0.0",
+          "name": "Wooden Stick",
+          "description": "A very sticky wood.\n\nThis sword was created by @zoan on April 3, 2024 using the Nifty Island creator tool.",
+          "attributes": []
+        }
+      },
+      "mint": {},
+      "timeLastUpdated": "2024-06-14T20:33:33.896Z"
+    },
+    "_local_files": [
+      {
+        "asset_name": "Wooden Stick",
+        "original_url": "https://content.niftyisland.com/nftables/37979115-10ae-4996-8c96-91f0d6010c18/v/1/source.fbx",
+        "local_path": "weapon_models_glb/base_0xc1374b803dfb1a9c87eab9e76929222dba3a8c39_88700490005035943529316798097329512194005047219864766536287890625371326907368_wooden_stick.glb",
+        "file_type": "model/glb",
+        "vercel_url": "https://vmja7qb50ap0jvma.public.blob.vercel-storage.com/demo/v1/models/weapons/weapon_models_glb/base_0xc1374b803dfb1a9c87eab9e76929222dba3a8c39_88700490005035943529316798097329512194005047219864766536287890625371326907368_wooden_stick-uPQJhbJwu3WE4iTMALJpyprjRvkhnD.glb"
+      }
+    ],
+    "_screenshots": [
+      {
+        "model_path": "weapon_models_glb/base_0xc1374b803dfb1a9c87eab9e76929222dba3a8c39_88700490005035943529316798097329512194005047219864766536287890625371326907368_wooden_stick.glb",
+        "screenshots": [
+          {
+            "angle": 0,
+            "path": "weapon_models_screenshots/base_0xc1374b803dfb1a9c87eab9e76929222dba3a8c39_88700490005035943529316798097329512194005047219864766536287890625371326907368_wooden_stick_0deg.jpg"
+          },
+          {
+            "angle": 90,
+            "path": "weapon_models_screenshots/base_0xc1374b803dfb1a9c87eab9e76929222dba3a8c39_88700490005035943529316798097329512194005047219864766536287890625371326907368_wooden_stick_90deg.jpg"
+          },
+          {
+            "angle": 180,
+            "path": "weapon_models_screenshots/base_0xc1374b803dfb1a9c87eab9e76929222dba3a8c39_88700490005035943529316798097329512194005047219864766536287890625371326907368_wooden_stick_180deg.jpg"
+          },
+          {
+            "angle": 270,
+            "path": "weapon_models_screenshots/base_0xc1374b803dfb1a9c87eab9e76929222dba3a8c39_88700490005035943529316798097329512194005047219864766536287890625371326907368_wooden_stick_270deg.jpg"
+          }
+        ]
+      }
+    ],
+    "_summaries": [
+      {
+        "model_path": "weapon_models_glb/base_0xc1374b803dfb1a9c87eab9e76929222dba3a8c39_88700490005035943529316798097329512194005047219864766536287890625371326907368_wooden_stick.glb",
+        "summary": "The object is a long, thin, and vertically oriented stick-like food item, likely a type of cracker or biscuit.  Its surface has a slightly textured, ridged appearance, as though it's been rolled or pressed, creating a subtle, bumpy pattern.  The color is a light, warm beige or tan, giving it a natural, baked food appearance.  The consistent, uniform shape and smooth, although textured, surfaces are distinctive elements.\n"
+      }
+    ],
+    "_totalSupply": "1000"
+  }
+]

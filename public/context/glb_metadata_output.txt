@@ -1,0 +1,226 @@
+base-0xc1374b803dfb1a9c87eab9e76929222dba3a8c39:
+  chain: base
+  contractAddress: "0xc1374b803dfb1a9c87eab9e76929222dba3a8c39"
+  contractName: Nifty Island Creations
+  assets:
+    - assetName: Wooden Stick
+      nftChain: base
+      nftContractAddress: "0xc1374b803dfb1a9c87eab9e76929222dba3a8c39"
+      nftTokenId: "88700490005035943529316798097329512194005047219864766536287890625371326907368"
+      nftTotalSupply: 1000
+      nftDescription: |-
+        A very sticky wood.
+
+        This sword was created by @zoan on April 3, 2024 using the Nifty Island creator tool.
+      aiSummary: >-
+        The object is a long, thin, and vertically oriented stick-like food item, likely a type of cracker or biscuit. 
+        Its surface has a slightly textured, ridged appearance, as though it's been rolled or pressed, creating a
+        subtle, bumpy pattern.  The color is a light, warm beige or tan, giving it a natural, baked food appearance. 
+        The consistent, uniform shape and smooth, although textured, surfaces are distinctive elements.
+    - assetName: Potato
+      nftChain: base
+      nftContractAddress: "0xc1374b803dfb1a9c87eab9e76929222dba3a8c39"
+      nftTokenId: "88700490005035943529316798097329512194005047219882794938052456414988126389224"
+      nftTotalSupply: 1000
+      nftDescription: |-
+        This potato is more than it looks!
+
+        This pistol was created by @zoan on April 3, 2024 using the Nifty Island creator tool.
+      aiSummary: >-
+        The object is a light yellowish-beige, seemingly smooth, but slightly textured, oval-shaped food item, possibly
+        a bean or seed.  Variations in tone and subtle reddish-brown markings are present on different facets, giving
+        the impression of natural variations or slight imperfections on the surface.  The lighting and rendering create
+        a somewhat glossy appearance, highlighting the shape and texture.  The image sequence shows the object from
+        varied perspectives, showcasing its overall form.
+    - assetName: Galactic Dagger
+      nftChain: base
+      nftContractAddress: "0xc1374b803dfb1a9c87eab9e76929222dba3a8c39"
+      nftTokenId: "88700490005035943529316798097329512194005047219867320405999286938053084446976"
+      nftTotalSupply: 256
+      nftDescription: |-
+        A weapon emanating galactic power.
+
+        This sword was created by @zoan on April 23, 2024 using the Nifty Island creator tool.
+      aiSummary: >-
+        The 3D model depicts a futuristic, stylized dagger.  Its blade and handle are predominantly purple and black,
+        with swirling patterns of violet, teal, and white that evoke a galaxy or nebula design.  Intricate, almost
+        organic, markings and details accentuate the handle, adding a sense of otherworldliness and technological
+        complexity to the overall aesthetic.
+    - assetName: Galactic Blaster
+      nftChain: base
+      nftContractAddress: "0xc1374b803dfb1a9c87eab9e76929222dba3a8c39"
+      nftTokenId: "88700490005035943529316798097329512194005047219881755379579551569399915741440"
+      nftTotalSupply: 256
+      nftDescription: |-
+        A weapon emanating galactic power.
+
+        This pistol was created by @zoan on April 23, 2024 using the Nifty Island creator tool.
+      aiSummary: >-
+        A futuristic, purple firearm with a stylized, almost organic design.  The gun's body is a deep violet with
+        metallic highlights and flecks of a darker shade.  It has a pronounced, contoured barrel and intricate, almost
+        fluid-like details on the body, giving it a distinctive, non-traditional look.  Gold accents add a contrasting
+        touch.
+    - assetName: Galactic Double Blade
+      nftChain: base
+      nftContractAddress: "0xc1374b803dfb1a9c87eab9e76929222dba3a8c39"
+      nftTokenId: "88700490005035943529316798097329512194005047219901286034167141915888189440256"
+      nftTotalSupply: 256
+      nftDescription: |-
+        A weapon emanating galactic power.
+
+        This sword was created by @zoan on April 24, 2024 using the Nifty Island creator tool.
+      aiSummary: >-
+        The object is a stylized, futuristic blade, likely a weapon or part of a larger sci-fi design.  Its shape is
+        elongated and double-edged, with sharp, angular protrusions and grooves suggestive of high-tech or robotic
+        construction.  The material appears to have a deep, dark-purple, and violet sheen, accented by glowing
+        highlights and streaks of neon pink and blue.  The overall aesthetic is sleek and otherworldly.
+    - assetName: Galactic Scimitar
+      nftChain: base
+      nftContractAddress: "0xc1374b803dfb1a9c87eab9e76929222dba3a8c39"
+      nftTokenId: "88700490005035943529316798097329512194005047219868950805959366933511820804352"
+      nftTotalSupply: 256
+      nftDescription: |-
+        A weapon emanating galactic power.
+
+        This sword was created by @zoan on April 24, 2024 using the Nifty Island creator tool.
+      aiSummary: >-
+        A stylized, futuristic sword and dagger set, rendered in exaggerated 3D detail.  The weapons feature a vibrant,
+        swirling mix of purple, blue, and teal colors, evoking galaxy themes.  Intricate metallic accents and embedded
+        gem-like elements decorate the hilts and blades, highlighting an otherworldly aesthetic.  The dagger's curved
+        blade and the sword's ridged hilt and distinct patterns stand out against the stark white background.
+    - assetName: Galactic Chakram
+      nftChain: base
+      nftContractAddress: "0xc1374b803dfb1a9c87eab9e76929222dba3a8c39"
+      nftTokenId: "88700490005035943529316798097329512194005047219899334107107445024531616366848"
+      nftTotalSupply: 256
+      nftDescription: |-
+        A weapon emanating galactic power. 
+
+        This sword was created by @zoan on April 25, 2024 using the Nifty Island creator tool.
+      aiSummary: >-
+        The object is a stylized, circular, almost wheel-like device, appearing as a dark purple and deep green, with a
+        highly textured and uneven surface.  Jagged, organic-looking protrusions and indentations cover the entire form,
+        creating a sense of depth and complexity.  Neon-like highlights of pinkish-purple and lime-green accent the
+        design. Circular, recessed details are visible throughout the object, further enhancing the intricate, almost
+        alien-like appearance.
+    - assetName: Galactic Soldier Sword
+      nftChain: base
+      nftContractAddress: "0xc1374b803dfb1a9c87eab9e76929222dba3a8c39"
+      nftTokenId: "88700490005035943529316798097329512194005047219881390044149695245192106344704"
+      nftTotalSupply: 256
+      nftDescription: |-
+        A weapon emanating galactic power.
+
+        This sword was created by @zoan on April 26, 2024 using the Nifty Island creator tool.
+      aiSummary: >-
+        The object is a stylized, futuristic knife or blade with a skull-like head.  It's predominantly dark purple with
+        iridescent highlights, and intricate, almost organic patterns in darker shades and lime green.  The skull-like
+        head is detailed with what appear to be sculpted bone structures and glowing, stylized eyes.  The blade's edge
+        is serrated, and the overall design is highly decorative and otherworldly.
+    - assetName: Galactic Buster Sword
+      nftChain: base
+      nftContractAddress: "0xc1374b803dfb1a9c87eab9e76929222dba3a8c39"
+      nftTokenId: "88700490005035943529316798097329512194005047219902124390129534197801326477412"
+      nftTotalSupply: 100
+      nftDescription: |-
+        A large galactic weapon that can cleave through anything.
+
+        This sword was created by @zoan on April 27, 2024 using the Nifty Island creator tool.
+      aiSummary: >-
+        The object is a stylized, futuristic blade, appearing dark purple and black with iridescent highlights.  Its
+        design incorporates angular, sculpted shapes and features implied details, resembling a complex, interwoven
+        metal or crystalline structure.  A pattern of swirling galaxy-like purple and violet swirls and speckles is
+        applied to the blade.  The hilt/handle is similarly detailed, showcasing a futuristic organic aesthetic.
+    - assetName: Galactic Moon Blade
+      nftChain: base
+      nftContractAddress: "0xc1374b803dfb1a9c87eab9e76929222dba3a8c39"
+      nftTokenId: "88700490005035943529316798097329512194005047219860478810755087724075171184740"
+      nftTotalSupply: 100
+      nftDescription: |-
+        A large galactic weapon with high agility and aftershocks.
+
+        This sword was created by @zoan on April 27, 2024 using the Nifty Island creator tool.
+      aiSummary: >-
+        The object is a stylized, curved blade weapon, likely from a science fiction or fantasy setting.  Its iridescent
+        purple and dark-purple blade is decorated with dark-purple and black veins/patterns, accented by bright and
+        vivid green highlights and details, giving it a futuristic, otherworldly aesthetic.  The handle/grip area is a
+        dark metallic color with unusual, organic-looking protrusions and glowing green accents; the overall shape is
+        fluid and semi-circular, making it unusual and striking.
+    - assetName: Galactic Ego Sword
+      nftChain: base
+      nftContractAddress: "0xc1374b803dfb1a9c87eab9e76929222dba3a8c39"
+      nftTokenId: "88700490005035943529316798097329512194005047219859907275389321193294152073316"
+      nftTotalSupply: 100
+      nftDescription: |-
+        A large galactic weapon with a soul of its own that can communicate to the wielder telepathically.
+
+        This sword was created by @zoan on April 27, 2024 using the Nifty Island creator tool.
+      aiSummary: >-
+        The object is a stylized, futuristic sword, rendered in vibrant purples, blacks, and greens.  Its blade features
+        angular, jagged edges and a segmented, almost crystalline texture, interspersed with glowing, lime-green orbs. 
+        The hilt is a complex design of organic and machine-like elements, creating a sense of technological alienism.
+        This visual effect, combined with the unusual color scheme, makes the sword appear both powerful and
+        otherworldly.
+    - assetName: Galactic Monarch Sword
+      nftChain: base
+      nftContractAddress: "0xc1374b803dfb1a9c87eab9e76929222dba3a8c39"
+      nftTokenId: "88700490005035943529316798097329512194005047219900626801634831090991287500900"
+      nftTotalSupply: 100
+      nftDescription: |-
+        A large galactic weapon worthy of rulers of galaxies.
+
+        This sword was created by @zoan on April 27, 2024 using the Nifty Island creator tool.
+      aiSummary: >-
+        The object is a stylized sword, rendered in vibrant shades of purple and dark blue, with hints of gold accents. 
+        Its design features intricate, almost organic, patterns along the blade and hilt, evoking a futuristic or
+        otherworldly aesthetic.  Prominent details include glowing, light-emitting features and a complex, multi-layered
+        hilt. The overall effect is one of powerful, otherworldly weaponry.
+    - assetName: Galactic Double Axe
+      nftChain: base
+      nftContractAddress: "0xc1374b803dfb1a9c87eab9e76929222dba3a8c39"
+      nftTokenId: "88700490005035943529316798097329512194005047219830252873040676414454790881380"
+      nftTotalSupply: 100
+      nftDescription: |-
+        A powerful axe with galactic power in every swing.
+
+        This sword was created by @zoan on May 1, 2024 using the Nifty Island creator tool.
+      aiSummary: >-
+        A stylized, double-bladed axe, or warhammer, with a futuristic, almost bio-mechanical aesthetic.  The weapon is
+        predominantly dark purple and black with intricate, glowing patterns and accents.  The curved blades and the
+        unique design of the handle, featuring a central, glowing core and dark, segmented shaft, give it a distinctive
+        and otherworldly look.  The intricate details and color scheme make the item visually striking and unique to a
+        fantasy or sci-fi setting.
+    - assetName: Doginal Bat (Mirror)
+      nftChain: base
+      nftContractAddress: "0xc1374b803dfb1a9c87eab9e76929222dba3a8c39"
+      nftTokenId: "88700490005035943529316798097329512194005047219896219087210145710713390236068"
+      nftTotalSupply: 420
+      nftDescription: >-
+        This is a convenience "mirror" NFT for Doginal Bat holders to use the bat in game. Doginal Bat is a dogecoin
+        inscription (the 3D file is stored onchain). It is listed on Doggy Market: https://doggy.market/nfts/doginalbat
+
+
+        This sword was created by @zoan on December 1, 2024 using the Nifty Island creator tool.
+      aiSummary: >-
+        A stylized golden baseball bat, rendered in 3D, features the words "Doge," "Wow," "Much," and "Mars"  spelled
+        out in different colored text (yellow, teal, red, purple) along its barrel. The text's varied colours and
+        placement create a dynamic and unique visual impact, detaching the object from a conventional baseball bat.  The
+        overall design is somewhat playful and whimsical due to the combination of colors and the words used.
+    - assetName: Doginal Megaphone (Mirror)
+      nftChain: base
+      nftContractAddress: "0xc1374b803dfb1a9c87eab9e76929222dba3a8c39"
+      nftTokenId: "88700490005035943529316798097329512194005047219839797533161627624870695142713"
+      nftTotalSupply: 1337
+      nftDescription: >-
+        This is a convenience "mirror" NFT for Doginal Megaphone holders to use the megaphone in game. Doginal Megaphone
+        is a dogecoin inscription (the 3D file is stored onchain). It is listed on Doggy Market:
+        https://doggy.market/nfts/doginalmegaphone
+
+
+        This pistol was created by @zoan on December 5, 2024 using the Nifty Island creator tool.
+      aiSummary: >-
+        A highly polished, golden-bronze megaphone, rendered in 3D.  Its design is exaggerated and stylized, with a
+        smooth, almost liquid-like texture to the metal.  The words "boom" or "ultra boom" are prominently displayed in
+        vibrant, contrasting colors (pink/purple and teal/blue) on the megaphone's surface, adding a pop of color to the
+        otherwise metallic aesthetic. The overall impression is one of a futuristic, almost futuristic, and
+        attention-grabbing public address system.
