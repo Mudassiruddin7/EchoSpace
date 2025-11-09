@@ -339,12 +339,9 @@ const Scene = ({ currentLobby }) => {
                         avatarData.usernameSprite.geometry.dispose();
                     }
 
-                    // Dispose animation clips
+                    // Clear animation clips
                     if (avatarData.animationClips) {
-                        avatarData.animationClips.forEach((clip) => {
-                            // Animation clips don't have explicit dispose, but we clear the cache
-                            THREE.AnimationUtils.subClip(clip, clip.name, 0, 0); // Clear internal cache
-                        });
+                        // Just clear the map - animation clips are managed by Three.js
                         avatarData.animationClips.clear();
                     }
 
@@ -722,6 +719,57 @@ const Scene = ({ currentLobby }) => {
             activeElement.contentEditable === 'true'
         );
 
+        // Handle UI toggle keys directly here since KeyboardHandler might not be mounting
+        const key = event.key.toLowerCase();
+        
+        // Import game store functions
+        const { 
+            toggleInventory, 
+            toggleQuestLog, 
+            toggleMap,
+            togglePartyPanel,
+            toggleFriendsList,
+            toggleTradeWindow,
+            toggleGuildPanel,
+            setShowEmoteWheel,
+            showEmoteWheel
+        } = require('@/lib/gameStore').useGameStore.getState();
+        
+        switch (key) {
+            case 'i':
+                console.log('🎒 Toggling inventory from NPC...');
+                const beforeInv = require('@/lib/gameStore').useGameStore.getState().showInventory;
+                console.log('Inventory state BEFORE toggle:', beforeInv);
+                toggleInventory();
+                const afterInv = require('@/lib/gameStore').useGameStore.getState().showInventory;
+                console.log('Inventory state AFTER toggle:', afterInv);
+                return;
+            case 'q':
+                console.log('📜 Toggling quest log from NPC...');
+                toggleQuestLog();
+                return;
+            case 'e':
+                console.log('😊 Toggling emote wheel from NPC...');
+                setShowEmoteWheel(!showEmoteWheel);
+                return;
+            case 'm':
+                console.log('🗺️ Toggling map from NPC...');
+                toggleMap();
+                return;
+            case 'p':
+                console.log('👥 Toggling party panel from NPC...');
+                togglePartyPanel();
+                return;
+            case 't':
+                console.log('💬 Toggling trade window from NPC...');
+                toggleTradeWindow();
+                return;
+            case 'g':
+                console.log('🏰 Toggling guild panel from NPC...');
+                toggleGuildPanel();
+                return;
+        }
+
         // Ignore movement keys if transitioning, chatting, or typing
         if ((isTransitioningRef.current || isChatting || isTyping) &&
             ['w', 'a', 's', 'd', 'W', 'A', 'S', 'D', 'ArrowUp', 'ArrowLeft', 'ArrowDown', 'ArrowRight'].includes(event.key)) {
@@ -856,9 +904,16 @@ const Scene = ({ currentLobby }) => {
             
             // Camera animation - move inside try block
             const avatar = avatarRef.current.scene;
-            const targetEntity = nearestAvatarRef.current.type === 'npc' 
-                ? npcRef.current.scene 
-                : nearestAvatarRef.current.avatar.scene;
+            const targetEntity = nearestAvatarRef.current?.type === 'npc' 
+                ? npcRef.current?.scene 
+                : nearestAvatarRef.current?.avatar?.scene;
+            
+            // Safety check for target entity
+            if (!targetEntity) {
+                console.error('Target entity not found for chat');
+                setIsChatting(false);
+                return;
+            }
                     
             const midpoint = new THREE.Vector3().addVectors(
                 avatar.position,

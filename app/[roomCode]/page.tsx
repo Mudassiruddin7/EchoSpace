@@ -22,6 +22,75 @@ const PeerJSVoiceChat = dynamic(() => import("../components/PeerJSVoiceChat"), {
   ssr: false
 });
 
+// Import gameplay components
+const PlayerStatsHUD = dynamic(() => import("../components/PlayerStatsHUD"), {
+  ssr: false
+});
+
+const InventoryPanel = dynamic(() => import("../components/InventoryPanel"), {
+  ssr: false
+});
+
+const QuestLog = dynamic(() => import("../components/QuestLog"), {
+  ssr: false
+});
+
+const MiniMap = dynamic(() => import("../components/MiniMap"), {
+  ssr: false
+});
+
+const EmoteWheel = dynamic(() => import("../components/EmoteWheel"), {
+  ssr: false
+});
+
+const NotificationToast = dynamic(() => import("../components/NotificationToast"), {
+  ssr: false
+});
+
+const QuickAccessHUD = dynamic(() => import("../components/QuickAccessHUD"), {
+  ssr: false
+});
+
+const KeyboardHandler = dynamic(() => import("../components/KeyboardHandler"), {
+  ssr: false,
+  loading: () => {
+    console.log('⏳ KeyboardHandler loading...');
+    return null;
+  }
+});
+
+const PartyPanel = dynamic(() => import("../components/PartyPanel"), {
+  ssr: false
+});
+
+const FriendsList = dynamic(() => import("../components/FriendsList"), {
+  ssr: false
+});
+
+const TradeWindow = dynamic(() => import("../components/TradeWindow"), {
+  ssr: false
+});
+
+const CombatHUD = dynamic(() => import("../components/CombatHUD"), {
+  ssr: false
+});
+
+const GuildPanel = dynamic(() => import("../components/GuildPanel"), {
+  ssr: false
+});
+
+const NPCDialoguePanel = dynamic(() => import("../components/NPCDialoguePanel"), {
+  ssr: false
+});
+
+const AchievementTracker = dynamic(() => import("../components/AchievementTracker"), {
+  ssr: false
+});
+
+const PlayerHousingPanel = dynamic(() => import("../components/PlayerHousingPanel"), {
+  ssr: false
+});
+
 export default function RoomPage() {
   const { roomCode } = useParams();
   const router = useRouter();
@@ -95,11 +164,41 @@ export default function RoomPage() {
   }
 
   // Room view with chat and voice components
+  console.log('🎮 RoomPage: Rendering with profile:', profile?.id);
+  
   return (
     <>
       <NPC currentLobby={currentLobby} />
       {currentLobby && <RoomChat lobbyId={currentLobby.lobbyId} />}
       <PeerJSVoiceChat />
+      
+      {/* Keyboard Event Handler */}
+      {(() => { console.log('🎮 About to render KeyboardHandler'); return null; })()}
+      <KeyboardHandler />
+      
+      {/* Gameplay UI Components */}
+      <PlayerStatsHUD />
+      <MiniMap />
+      <InventoryPanel />
+      <QuestLog />
+      <EmoteWheel />
+      <NotificationToast />
+      <QuickAccessHUD />
+      
+      {/* Social Systems */}
+      <PartyPanel />
+      <FriendsList />
+      <TradeWindow />
+      
+      {/* Phase 3 - Advanced Gameplay */}
+      <CombatHUD />
+      <GuildPanel />
+      
+      {/* Phase 4 - Immersive Experience */}
+      <NPCDialoguePanel />
+      <AchievementTracker />
+      <PlayerHousingPanel />
+      
       {/* Custom back button overlay */}
       <button
         onClick={() => router.push('/')}
